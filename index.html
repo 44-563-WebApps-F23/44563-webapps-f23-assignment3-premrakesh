@@ -31,6 +31,7 @@
         </ul>
         <a href="mystats.html">Link to mystats</a>
         <hr>
+        <h4>Table</h4>
         <table border="1px">
             <tr>
                 <th>Name of the sport</th>
@@ -61,6 +62,26 @@
         </table>
         <hr>
         <h4>Code Display</h4>
+        <blockquote cite="https://stackoverflow.com/questions/49107123/sass-offset-position-mixin-troubles">
+            I've been trying to make an offset positioning mixin for the past couple of hours. I've been struggling with lots of errors, I cant understand what is wrong.
+        </blockquote>
+        <a href="https://stackoverflow.com/questions/49107123/sass-offset-position-mixin-troubles">Link to the question</a>
+        <pre>
+            /// Shorthand mixin for offset positioning
+            /// @param {String} $position - Either `relative`, `absolute` or `fixed`
+            /// @param {Length} $top [null] - Top offset
+            /// @param {Length} $right [null] - Right offset
+            /// @param {Length} $bottom [null] - Bottom offset
+            /// @param {Length} $left [null] - Left offset
+            @mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+              position: $position;
+              top: $top;
+              right: $right;
+              bottom: $bottom;
+              left: $left;
+            }
+        </pre>
+        <a href="https://css-tricks.com/snippets/sass/mixin-offset-positioning/">Source link</a>
     </body>
 </html>
 
